@@ -80,6 +80,7 @@
 }
 .navbar .btn {
     margin-left: auto;
+    margin-bottom: 5px;
 }
 @media only screen and (min-width: 496px) {
   .navbar .btn {
@@ -91,7 +92,6 @@
 @media only screen and (min-width: 573px) {
   .navbar .btn {
     width: 15%;
-    margin-left: auto;
     margin-right: 0;
   }
 }
@@ -101,3 +101,159 @@
   }
 }
 
+.footer {
+    margin-top: 5px 0 0 0;
+    background-color: #343a40;
+    text-align: center;
+}
+.footer .card-footer1 {
+    width: 100%;
+    height: 100%;
+    margin: 0px auto 3px auto;
+    background-color: #343a40;
+    border: 1px solid green;
+}
+.footer .card-footer1 .card-title {
+    color: white;
+}
+.footer .card-footer1 .card-paragraph {
+    margin: 5% 0px 5% 0px;
+    color: white;
+}
+@media only screen and (min-width: 768px) {
+    .footer .card-footer1 .card-paragraph {
+        margin: 15% 0px 25% 0px;
+    }
+}
+@media only screen and (min-width: 991px) {
+    .footer .card-footer1 .card-paragraph {
+        margin: 15% 0px 15% 0px;
+    }
+}
+.footer .card-footer1 .btn  {
+        margin-top: 3%;
+    }
+.footer .card-footer1 .btn:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 3px 3px 3px;
+}
+.footer .card-footer2 {
+    width: 100%;
+    height: 100%;
+    margin: 0px auto 3px auto;
+    background-color: #343a40;
+    border: 1px solid green;
+}
+.footer .card-footer2 .card-title {
+    color: white;
+    margin-bottom: 5%;
+}
+.footer .card-footer2 a {
+    text-decoration: none;
+}
+.footer .card-footer2 .tel {
+    color: white;
+}
+.footer .card-footer2 .tel:hover {
+    color: green;
+    font-weight: bold;
+    transform: scale(1.2);
+    transition: 1s;
+}
+.footer .card-footer2 .email {
+    color: green;
+}
+.footer .card-footer2 .email:hover {
+    font-weight: bold;
+    transform: scale(1.2);
+    transition: 1s;
+}
+.footer .card-footer2 .card-paragraph {
+    color: white;
+}
+.footer .card-footer2 .btn {
+    margin-top: 10%;
+}
+.footer .card-footer2 .btn:hover {
+    box-shadow: 3px 3px 3px;
+    transform: scale(1.1);
+    transition: 1s;
+}
+.footer .card-footer3 {
+    width: 100%;
+    height: 100%;
+    margin: 0px auto 3px auto;
+    background-color: #343a40;
+    border: 1px solid green;
+}
+.footer .card-footer3 .card-title {
+    color: white;
+    margin-bottom: 5%;
+}
+.footer .card-footer3 .card-paragraph {
+    color: white;
+}
+.footer .card-footer3 .card-mybrand {
+    color: green;
+    font-weight: bold;
+    cursor: pointer;
+}
+.footer .card-footer3 .card-mybrand:hover {
+    color: white;
+    transform: scale(1.2);
+    transition: 1s;
+    cursor: pointer;
+}
+.footer .card-footer3 .social-network-wrapper{
+    width: 100%;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.footer .card-footer3 .social-network-wrapper .social-icon {
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.footer .card-footer3 .social-network-wrapper .social-icon.facebook {
+    background-image: url("../img/facebook.png");
+}
+.footer .card-footer3 .social-network-wrapper .social-icon.facebook:hover {
+    transform: rotateY(360deg);
+    transition: 2s;
+}
+.footer .card-footer3 .social-network-wrapper .social-icon.twiter {
+    background-image: url("../img/twiter.png");
+}
+.footer .card-footer3 .social-network-wrapper .social-icon.twiter:hover {
+    transform: rotateY(360deg);
+    transition: 2s;
+}
+.footer .card-footer3 .social-network-wrapper .social-icon.arduino {
+    background-image: url("../img/arduino.png");
+}
+.footer .card-footer3 .social-network-wrapper .social-icon.arduino:hover {
+    transform: rotateY(360deg);
+    transition: 2s;
+}
+.footer .card-footer3 .social-network-wrapper .social-icon.git {
+    background-image: url("../img/github.png");
+}
+.footer .card-footer3 .social-network-wrapper .social-icon.git:hover {
+    transform: rotateY(360deg);
+    transition: 2s;
+}
+.footer .card-footer3 .social-network-wrapper .social-icon.youtube {
+    background-image: url("../img/youtube.png");
+}
+.footer .card-footer3 .social-network-wrapper .social-icon.youtube:hover {
+    transform: rotateY(360deg);
+    transition: 2s;
+}
+
+.footer .card-footer3 .social-network-wrapper .social-icon:not(:first-of-type) {
+    margin-left: 5px;
+}
