@@ -1,0 +1,75 @@
+#inicio-link {
+    color: yellow;
+}
+
+.luis {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(rgba(25,25,25,.7), rgba(0,0,0,.5) ), url("../img/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.luis header {
+    padding: 10px 0 10px 0;
+}
+.luis header .wrapper-userimgapp{
+    width: 100px;
+    height: 100px;
+    margin: 0 15px 0 auto;
+    background-image: url(../img/Computer-Hacker.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: inherit;
+    border-radius: 50px;
+}
+.luis .card-title-luis {
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgba(0,0,0,.0);
+}
+.luis .card-title-luis h1 {
+    color: white;
+    font-family: fantasy;
+    text-shadow: 5px 5px 5px black;
+    font-size: 30px;
+}
+.luis .card-title-luis h1 span {
+    color: green;
+    font-family: fantasy;
+    text-shadow: 5px 5px 5px black;
+    font-size: 30px;
+}
+@media (min-width: 576px) and (max-width: 767px) 
+    {
+        .luis .card-title-luis h1
+            {
+                font-size: 35px;
+            }
+            .luis .card-title-luis h1 span {
+                font-size: 35px;
+            }
+    }
+@media (min-width: 768px) and (max-width: 991px) 
+    {
+        .luis .card-title-luis h1
+            {
+                font-size: 45px;
+            }
+            .luis .card-title-luis h1 span {
+                font-size: 45px;
+            }
+    }
+@media (min-width: 992px)
+    { 
+        .luis .card-title-luis h1
+            {
+                font-size: 70px;
+            }
+            .luis .card-title-luis h1 span {
+                font-size: 70px;
+            } 
+    }
