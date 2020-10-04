@@ -66,7 +66,11 @@ node_modules/
 .env
 
 .firebaserc
+functions/package-look.json
+functions/.eslintrc.json
+functions/.gitignore
 functions/src/statics/img/
+functions/src/statics/vid/
 
 functions/src/statics/css/bootstrap-grid.css
 functions/src/statics/css/bootstrap-grid.css.map
@@ -91,6 +95,3 @@ functions/src/statics/js/bootstrap.min.js
 functions/src/statics/js/bootstrap.min.js.map
 functions/src/statics/js/jquery-3.5.1.min.js
 
-package-look.json
-.eslintrc.json
-functions/.gitignore
