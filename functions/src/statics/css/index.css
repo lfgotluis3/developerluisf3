@@ -12,6 +12,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    box-shadow: rgb(150,150,150) 5px 5px 5px;
 }
 .luis header {
     padding: 10px 0 10px 0;
@@ -73,23 +74,25 @@
 .card-title-first {
     margin: 15px 0px 20px 0px;
 }
-.card-title-first h2 {
+.card-title-first h1 {
     text-align: justify;
     text-align: center;
     font-family: fantasy;
-
+    text-shadow: 2px 2px 2px green;
 } 
-.card-title-first h2 span {
+.card-title-first h1 span {
     text-align: justify;
     text-align: center;
     font-family: fantasy;
     color: green;
+    text-shadow: 2px 2px 2px black;
 }
 
 .contact-section {
     margin: 20px 0px 20px 0px;
     border: 1px solid green;
-    box-shadow: 5px 5px 5px #acacac;
+    /*box-shadow: 5px 5px 5px #acacac;*/
+    box-shadow: rgb(150,150,150) 5px 5px 5px;
     border-radius: 5px;
 }
 .contact-section .card-img {
@@ -153,7 +156,7 @@
 }
 .contact-section .social-network-wrapper {
     width: 100%;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 20px 0px;
     display: flex;
     justify-content: center;
 }
@@ -208,43 +211,151 @@
 .services-section {
     border: 1px solid green;
     margin: 20px 0px 0px 0px;
-    box-shadow: 5px 5px 5px #acacac;
+    /*box-shadow: 5px 5px 5px #acacac;*/
+    box-shadow: rgb(150,150,150) 5px 5px 5px;
     border-radius: 5px;
 }
 .services-section .vid {
     width: 100%;
     border-radius: 5px 5px 0px 0px;
 }
-.services-section .card-body .card-title {
+.services-section .services-body {
+    margin-bottom: 5%;
+}
+@media only screen and (min-width: 991px) {
+    .services-section .services-body {
+        margin-bottom: 18%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .services-section .services-body {
+        margin-bottom: 14%;
+    }
+}
+.services-section .services-body .services-title {
     font-family: fantasy;
     text-align: center;
 }
-.services-section .card-body .card-title span {
+.services-section .services-body .services-title span {
     color: green;
     font-family: fantasy;
     text-align: center;
 }
-.services-section .card-body .card-text {
+.services-section .services-body .services-text {
     text-align: center;
 }
-.services-section .card-body .wrapper-btn {
+.services-section .services-body .wrapper-btn {
     display: flex;
 }
-.services-section .card-body .wrapper-btn .btn {
+.services-section .services-body .wrapper-btn .btn {
     margin: 50px auto 0px auto;
     box-shadow: 3px 3px 3px #333;
 }
-.services-section .card-body .wrapper-btn .btn:hover {
+.services-section .services-body .wrapper-btn .btn:hover {
     transform: scale(1.1);
     transition: 1s;
 }
 @media only screen and (min-width: 1200px) {
-    .services-section .card-body .wrapper-btn .btn {
+    .services-section .services-body .wrapper-btn .btn {
         margin: 20px auto 0px auto;
         box-shadow: 3px 3px 3px #333;
     }
-    .services-section .card-body .wrapper-btn .btn:hover {
+    .services-section .services-body .wrapper-btn .btn:hover {
         transform: scale(1.1);
         transition: 1s;
     }
+}
+
+.card-title-sections {
+    background-color: #343a40;
+    margin: 0px 0px 30px 0px;
+    padding: 0;
+    box-shadow: rgb(150,150,150) 5px 5px 5px;
+}
+.card-title-sections .card-title {
+    margin: 2% 0px 2% 0px;
+}
+.card-title-sections .card-title .h2 {
+    text-align: center;
+    font-family: fantasy;
+    color: #28a745;
+}
+
+.wrapper-carrousel {
+    margin: 20px 0px;
+    box-shadow: rgb(150,150,150) 5px 5px 5px;
+    border-radius: 5px;
+}
+
+.card-js1 {
+    margin: 20px 0px;
+    border: 1px solid green;
+    box-shadow: rgb(150,150,150) 5px 5px 5px;
+    border-radius: 5px;
+}
+.card-js1 .card-header-js1 {
+    border-bottom: 2px solid green;
+    margin: 25px;
+    background-color: white;
+}
+.card-js1 .card-header-js1 .card-title {
+    text-align: center;
+    font-family: fantasy;
+    
+}
+.card-js1 .card-header-js1 span {
+    font-family: fantasy;
+    color: green;
+}
+.card-js1 .card-body-js {
+    padding: 25px;
+    display: flexbox;
+    text-align: justify;
+}
+@media only screen and (min-width: 768px) {
+    .card-js1 .card-body-js {
+        margin-bottom: 12%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .card-js1 .card-body-js {
+        margin-bottom: 30%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .card-js1 .card-body-js {
+        margin-bottom: 18%;
+    }
+}
+.card-js1 .card-body-js .paragraph {
+    color: #6c757d;
+}
+
+.card-js2 {
+    margin: 20px 0px;
+    border: 1px solid green;
+    box-shadow: rgb(150,150,150) 5px 5px 5px;
+    border-radius: 5px;
+}
+.card-js2 .card-header-js2 {
+    border-bottom: 2px solid green;
+    margin: 25px;
+    background-color: white;
+}
+.card-js2 .card-header-js2 .card-title {
+    text-align: center;
+    font-family: fantasy;
+    
+}
+.card-js2 .card-header-js2 span {
+    font-family: fantasy;
+    color: green;
+}
+.card-js2 .card-body-js2 {
+    padding: 25px;
+    display: flexbox;
+    text-align: justify;
+}
+.card-js2 .card-body-js2 .paragraph {
+    color: #6c757d;
 }
