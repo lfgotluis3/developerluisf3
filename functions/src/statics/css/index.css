@@ -211,7 +211,6 @@
 .services-section {
     border: 1px solid green;
     margin: 20px 0px 0px 0px;
-    /*box-shadow: 5px 5px 5px #acacac;*/
     box-shadow: rgb(150,150,150) 5px 5px 5px;
     border-radius: 5px;
 }
@@ -359,3 +358,85 @@
 .card-js2 .card-body-js2 .paragraph {
     color: #6c757d;
 }
+
+.ardu-wrapper {
+    border: 1px solid green;
+    margin: 20px 0px;
+    padding: 1%;
+    box-shadow: rgb(150,150,150) 5px 5px 5px;
+}
+.ardu-wrapper .card-img {
+    width: 100%;
+    margin: 5% 0px;
+}
+.ardu-wrapper .card-img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+.ardu-wrapper .ardu-body {
+    margin: 30px 0px;
+}
+@media only screen and (min-width: 768px) {
+    .ardu-wrapper .ardu-body {
+        margin: 85px 0px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .ardu-wrapper .ardu-body {
+        margin: 125px 0px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .ardu-wrapper .ardu-body {
+        margin: 150px 0px;
+    }
+}
+.ardu-wrapper .ardu-body .ardu-title {
+    text-align: center;
+    font-family: fantasy;
+}
+.ardu-wrapper .ardu-body .ardu-title span {
+    font-family: fantasy;
+    color: green;
+}
+
+.arduino-wrapper {
+    margin: 40px 0px;
+}
+.arduino-wrapper .arduino-body {
+    display: flexbox;
+    text-align: justify;
+}
+.arduino-wrapper .arduino-body .arduino-title {
+    margin: 10% 0px 5% 0px;
+    text-align: left;
+    font-family: fantasy;
+}
+.arduino-wrapper .arduino-body .arduino-title span {
+    font-family: fantasy;
+    color: green;
+}
+.arduino-wrapper .arduino-body .img {
+    float: right; 
+    width: 100px;
+    height: 100px;
+}
+@media (min-width: 576px) {
+    .arduino-wrapper .arduino-body .img {
+        width: 200px;
+        height: 200px;
+    }
+}
+@media (min-width: 768px) {
+    .arduino-wrapper .arduino-body .img {
+        width: 300px;
+        height: 300px;
+    }
+}
+@media (min-width: 992px) { 
+    .arduino-wrapper .arduino-body .img
+        {
+            width: 350px;
+            height: 350px;
+        } 
+} 
