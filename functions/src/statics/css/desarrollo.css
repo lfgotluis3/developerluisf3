@@ -1,0 +1,70 @@
+.navbar .navbar-collapse .navbar-nav .nav-item .desarrollo-link {
+    color: yellow;
+}
+.wrapper-section-dev {
+    width: 100%;
+    height: 100vh;
+    margin: 0px 0px 5px 0px;
+    padding: 0px;
+    background-image: linear-gradient(rgba(25,25,25,.7), rgba(0,0,0,.5) ), url("../img/serv.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: rgb(150,150,150) 5px 5px 5px;
+}
+.wrapper-section-dev header {
+    padding: 10px 0 10px 0;
+}
+.wrapper-section-dev header .wrapper-userimgapp{
+    width: 100px;
+    margin: 0 15px 0 auto;
+}
+.wrapper-section-dev header .wrapper-userimgapp img {
+    width: 80%;
+    height: 80px;
+    border-radius: 50%;
+}
+.wrapper-section-dev .dev-title {
+    border: o;
+    margin: 100px auto 0 auto;
+    padding: 6%;
+    text-align: center;
+    background-color: rgba(0,0,0,.0);
+}
+.wrapper-section-dev .dev-title h1 {
+    color: white;
+    font-family: fantasy;
+    text-shadow: 5px 5px 5px black;
+    font-size: 30px;
+}
+.wrapper-section-dev .dev-title h1 span {
+    color: green;
+    font-family: fantasy;
+    text-shadow: 5px 5px 5px black;
+    font-size: 30px;
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .wrapper-section-dev .dev-title h1  {
+        font-size: 35px;
+    }
+    .wrapper-section-dev .dev-title h1 span {
+        font-size: 35px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .wrapper-section-dev .dev-title h1 {
+        font-size: 45px;
+    }
+    .wrapper-section-dev .dev-title h1 span {
+        font-size: 45px;
+    }
+}
+@media (min-width: 992px) { 
+    .wrapper-section-dev .dev-title h1 {
+        font-size: 70px;
+    }
+    .wrapper-section-dev .dev-title h1 span {
+        font-size: 70px;
+    } 
+}
