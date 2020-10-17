@@ -1,6 +1,3 @@
-.navbar .navbar-collapse .navbar-nav .nav-item .desarrollo-link {
-    color: yellow;
-}
 .wrapper-section-dev {
     width: 100%;
     height: 100vh;
@@ -17,54 +14,244 @@
     padding: 10px 0 10px 0;
 }
 .wrapper-section-dev header .wrapper-userimgapp{
-    width: 100px;
+    width: 75px;
+    height: 75px;
     margin: 0 15px 0 auto;
 }
 .wrapper-section-dev header .wrapper-userimgapp img {
-    width: 80%;
-    height: 80px;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
 }
-.wrapper-section-dev .dev-title {
+.wrapper-section-dev .dev-tittle {
     border: o;
     margin: 100px auto 0 auto;
     padding: 6%;
     text-align: center;
     background-color: rgba(0,0,0,.0);
 }
-.wrapper-section-dev .dev-title h1 {
+.wrapper-section-dev .dev-tittle .tittle {
     color: white;
     font-family: fantasy;
     text-shadow: 5px 5px 5px black;
     font-size: 30px;
 }
-.wrapper-section-dev .dev-title h1 span {
+.wrapper-section-dev .dev-tittle .tittle span {
     color: green;
     font-family: fantasy;
     text-shadow: 5px 5px 5px black;
     font-size: 30px;
 }
 @media (min-width: 576px) and (max-width: 767px) {
-    .wrapper-section-dev .dev-title h1  {
+    .wrapper-section-dev .dev-tittle .tittle  {
         font-size: 35px;
     }
-    .wrapper-section-dev .dev-title h1 span {
+    .wrapper-section-dev .dev-tittle .tittle span {
         font-size: 35px;
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-    .wrapper-section-dev .dev-title h1 {
+    .wrapper-section-dev .dev-tittle .tittle {
         font-size: 45px;
     }
-    .wrapper-section-dev .dev-title h1 span {
+    .wrapper-section-dev .dev-tittle .tittle span {
         font-size: 45px;
     }
 }
 @media (min-width: 992px) { 
-    .wrapper-section-dev .dev-title h1 {
+    .wrapper-section-dev .dev-tittle .tittle {
         font-size: 70px;
     }
-    .wrapper-section-dev .dev-title h1 span {
+    .wrapper-section-dev .dev-tittle .tittle span {
         font-size: 70px;
     } 
+}
+
+.wrapper-perfil {
+    margin: 20px 0px 20px 0px;
+    border: 1px solid green;
+    box-shadow: rgb(150,150,150) 5px 5px 5px;
+    border-radius: 5px;
+}
+.wrapper-perfil .img {
+    width: 50%;
+    margin: 3% 25% 8% 25%;
+}
+.wrapper-perfil .perfil-body {
+    padding: 3%;
+}
+.wrapper-perfil .perfil-body .tittle {
+    text-align: center;
+    font-family: fantasy;
+}
+.wrapper-perfil .perfil-body .tittle span {
+    text-align: center;
+    font-family: fantasy;
+    color: green;
+}
+.wrapper-perfil .perfil-body .tittle2 {
+    text-align: center;
+    font-style: italic;
+    color: green;
+    font-weight: bold;
+    cursor: pointer;
+}
+@media only screen and (min-width: 768px) {
+    .wrapper-perfil .perfil-body .tittle2 {
+        margin-bottom: 8%;
+    }
+}
+@media only screen and (min-width: 991px) {
+    .wrapper-perfil .perfil-body .tittle2 {
+        margin-bottom: 15%;
+    }
+}
+.wrapper-perfil .perfil-body .tittle2:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+.wrapper-perfil .perfil-body p {
+    text-align: center;
+}
+@media only screen and (min-width: 991px) {
+    .wrapper-perfil .perfil-body p {
+        margin-bottom: 13%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .wrapper-perfil .perfil-body p {
+        margin-bottom: 10%;
+    }
+}
+.wrapper-perfil .perfil-body .social-network-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 5% auto;
+}
+.wrapper-perfil .perfil-body .social-network-wrapper .social-icon {
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.wrapper-perfil .perfil-body .social-network-wrapper .social-icon.facebook {
+    background-image: url("../img/facebook.png");
+}
+.wrapper-perfil .perfil-body .social-network-wrapper .social-icon.facebook:hover {
+    transform: rotateY(360deg);
+    transition: 2s;
+}
+.wrapper-perfil .perfil-body .social-network-wrapper .social-icon.twiter {
+    background-image: url("../img/twiter.png");
+}
+.wrapper-perfil .perfil-body .social-network-wrapper .social-icon.twiter:hover {
+    transform: rotateY(360deg);
+    transition: 2s;
+}
+.wrapper-perfil .perfil-body .social-network-wrapper .social-icon.arduino {
+    background-image: url("../img/arduino.png");
+}
+.wrapper-perfil .perfil-body .social-network-wrapper .social-icon.arduino:hover {
+    transform: rotateY(360deg);
+    transition: 2s;
+}
+.wrapper-perfil .perfil-body .social-network-wrapper .social-icon.git {
+    background-image: url("../img/github.png");
+}
+.wrapper-perfil .perfil-body .social-network-wrapper .social-icon.git:hover {
+    transform: rotateY(360deg);
+    transition: 2s;
+}
+.wrapper-perfil .perfil-body .social-network-wrapper .social-icon.youtube {
+    background-image: url("../img/youtube.png");
+}
+.wrapper-perfil .perfil-body .social-network-wrapper .social-icon.youtube:hover {
+    transform: rotateY(360deg);
+    transition: 2s;
+}
+.wrapper-perfil .perfil-body .social-network-wrapper .social-icon:not(:first-of-type) {
+    margin-left: 5px;
+}
+
+.wrapper-devcontact {
+    margin: 20px 0px 20px 0px;
+    border: 1px solid green;
+    box-shadow: rgb(150,150,150) 5px 5px 5px;
+    border-radius: 5px;
+}
+.wrapper-devcontact .img {
+    width: 50%;
+    margin: 3% 25% 10% 25%;
+}
+.wrapper-devcontact .devcontact-body .tittle {
+    text-align: center;
+    font-family: fantasy;
+}
+.wrapper-devcontact .devcontact-body .tittle span {
+    text-align: center;
+    font-family: fantasy;
+    color: green;
+}
+.wrapper-devcontact .devcontact-body .tel {
+    text-align: center;
+}
+.wrapper-devcontact .devcontact-body .tel:hover {
+    color: green;
+    font-weight: bold;
+    transform: scale(1.2);
+    transition: 1s;
+}
+.wrapper-devcontact .devcontact-body .email {
+    text-align: center;
+    color: green;
+}
+@media only screen and (min-width: 991px) {
+    .wrapper-devcontact .devcontact-body .email {
+        margin-bottom: 15%;
+    }
+}
+.wrapper-devcontact .devcontact-body .email:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+.wrapper-devcontact .devcontact-body p {
+    text-align: center;
+}
+
+.wrapper-devpurposes {
+    margin: 20px 0px 20px 0px;
+    border: 1px solid green;
+    box-shadow: rgb(150,150,150) 5px 5px 5px;
+    border-radius: 5px;
+}
+.wrapper-devpurposes .img {
+    width: 50%;
+    margin: 3% 25% 8% 25%;
+}
+.wrapper-devpurposes .devpurposes-body {
+    padding: 3%;
+}
+.wrapper-devpurposes .devpurposes-body .tittle {
+    text-align: center;
+    font-family: fantasy;
+}
+.wrapper-devpurposes .devpurposes-body .tittle span {
+    text-align: center;
+    font-family: fantasy;
+    color: green;
+}
+.wrapper-devpurposes .devpurposes-body p {
+    text-align: center;
+    margin-bottom: 17%;
+}
+@media only screen and (min-width: 1200px) {
+    .wrapper-devpurposes .devpurposes-body p {
+        margin-bottom: 15%;
+    }
+}
+.wrapper-devpurposes .devpurposes-body .wrapper-btn {
+    margin: 5% auto 10% auto;
+    display: flex;
+    justify-content: center;
 }
