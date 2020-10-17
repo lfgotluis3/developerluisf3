@@ -17,66 +17,66 @@
     width: 75px;
     height: 75px;
     margin: 0 15px 0 auto;
-    background-image: url(../img/Computer-Hacker.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: inherit;
-    border-radius: 50px;
 }
-.luis .card-title-luis {
+.luis header .wrapper-userimgapp img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.luis .tittle-luis {
     border: o;
     margin: 100px auto 0 auto;
     padding: 6%;
     text-align: center;
     background-color: rgba(0,0,0,.0);
 }
-.luis .card-title-luis h1 {
+.luis .tittle-luis .tittle {
     color: white;
     font-family: fantasy;
     text-shadow: 5px 5px 5px black;
     font-size: 30px;
 }
-.luis .card-title-luis h1 span {
+.luis .tittle-luis .tittle span {
     color: green;
     font-family: fantasy;
     text-shadow: 5px 5px 5px black;
     font-size: 30px;
 }
 @media (min-width: 576px) and (max-width: 767px) {
-    .luis .card-title-luis h1  {
+    .luis .tittle-luis .tittle  {
         font-size: 35px;
     }
-    .luis .card-title-luis h1 span {
+    .luis .tittle-luis .tittle span {
         font-size: 35px;
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-    .luis .card-title-luis h1 {
+    .luis .tittle-luis .tittle {
         font-size: 45px;
     }
-    .luis .card-title-luis h1 span {
+    .luis .tittle-luis .tittle span {
         font-size: 45px;
     }
 }
 @media (min-width: 992px) { 
-    .luis .card-title-luis h1 {
+    .luis .tittle-luis .tittle {
         font-size: 70px;
     }
-    .luis .card-title-luis h1 span {
+    .luis .tittle-luis .tittle span {
         font-size: 70px;
     } 
 }
 
-.card-title-first {
+.tittle-first {
     margin: 15px 0px 20px 0px;
 }
-.card-title-first h1 {
+.tittle-first h1 {
     text-align: justify;
     text-align: center;
     font-family: fantasy;
     text-shadow: 2px 2px 2px green;
 } 
-.card-title-first h1 span {
+.tittle-first h1 span {
     text-align: justify;
     text-align: center;
     font-family: fantasy;
@@ -87,7 +87,6 @@
 .contact-section {
     margin: 20px 0px 20px 0px;
     border: 1px solid green;
-    /*box-shadow: 5px 5px 5px #acacac;*/
     box-shadow: rgb(150,150,150) 5px 5px 5px;
     border-radius: 5px;
 }
