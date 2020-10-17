@@ -245,13 +245,77 @@
     text-align: center;
     margin-bottom: 17%;
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 768px) {
+    .wrapper-devpurposes .devpurposes-body p {
+        margin-bottom: 13%;
+    }
+}
+@media only screen and (min-width: 991px) {
     .wrapper-devpurposes .devpurposes-body p {
         margin-bottom: 15%;
     }
 }
+@media only screen and (min-width: 1200px) {
+    .wrapper-devpurposes .devpurposes-body p {
+        margin-bottom: 12%;
+    }
+} 
 .wrapper-devpurposes .devpurposes-body .wrapper-btn {
     margin: 5% auto 10% auto;
     display: flex;
     justify-content: center;
+}
+.wrapper-devpurposes .devpurposes-body .wrapper-btn
+.btn {
+    margin-top: 3%;
+    box-shadow: 3px 3px 3px #333;
+}
+.wrapper-devpurposes .devpurposes-body .wrapper-btn .btn:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.wrapper-algorithm {
+    margin: 20px 0px 20px 0px;
+    border: 1px solid green;
+    box-shadow: rgb(150,150,150) 5px 5px 5px;
+    border-radius: 5px;
+    padding-top: 5%;
+}
+.wrapper-algorithm .tittle {
+    text-align: center;
+    font-family: fantasy;
+}
+.wrapper-algorithm .tittle span {
+    text-align: center;
+    font-family: fantasy;
+    color: green;
+}
+.wrapper-algorithm .img {
+    float: right; 
+    width: 35%;
+}
+@media only screen and (min-width: 576px) {
+    .wrapper-algorithm .img {
+        width: 35%;
+    }
+}
+.wrapper-algorithm .algorithm-body {
+    padding: 5% 3% 5% 3%;
+    display: flexbox;
+    text-align: justify;
+}
+.wrapper-algorithm .algorithm-body .h5 {
+    margin-top: 10%;
+    text-align: center;
+    font-family: fantasy;
+}
+.wrapper-algorithm .algorithm-body .h5 span {
+    font-family: fantasy;
+    color: green;
+}
+@media only screen and (min-width: 768px) {
+    .wrapper-algorithm .algorithm-body .h5 {
+        margin-top: 6%;
+    }
 }
