@@ -1,0 +1,116 @@
+.wrapper-section-services {
+    width: 100%;
+    height: 100vh;
+    margin: 0px 0px 5px 0px;
+    padding: 0px;
+    background-image: linear-gradient(rgba(25,25,25,.7), rgba(0,0,0,.5) ), url("../img/uno.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: rgb(150,150,150) 5px 5px 5px;
+}
+.wrapper-section-services header {
+    padding: 10px 0 10px 0;
+}
+.wrapper-section-services header .wrapper-userimgapp{
+    width: 75px;
+    height: 75px;
+    margin: 0 15px 0 auto;
+}
+.wrapper-section-services header .wrapper-userimgapp img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.wrapper-section-services .services-tittle {
+    border: o;
+    margin: 100px auto 0 auto;
+    padding: 6%;
+    text-align: center;
+    background-color: rgba(0,0,0,.0);
+}
+.wrapper-section-services .services-tittle .tittle {
+    color: white;
+    font-family: fantasy;
+    text-shadow: 5px 5px 5px black;
+    font-size: 30px;
+}
+.wrapper-section-services .services-tittle .tittle span {
+    color: green;
+    font-family: fantasy;
+    text-shadow: 5px 5px 5px black;
+    font-size: 30px;
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .wrapper-section-services .services-tittle .tittle  {
+        font-size: 35px;
+    }
+    .wrapper-section-services .services-tittle .tittle span {
+        font-size: 35px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .wrapper-section-services .services-tittle .tittle {
+        font-size: 45px;
+    }
+    .wrapper-section-services .services-tittle .tittle span {
+        font-size: 45px;
+    }
+}
+@media (min-width: 992px) { 
+    .wrapper-section-services .services-tittle .tittle {
+        font-size: 70px;
+    }
+    .wrapper-section-services .services-tittle .tittle span {
+        font-size: 70px;
+    } 
+}
+
+.wrapper-design {
+    margin: 10% 0%;
+    padding: 5%;
+}
+@media (min-width: 768px) {
+    .wrapper-design {
+        margin: 5% 0%;
+        padding: 0%;
+    }
+}
+.wrapper-design .design-header {  
+    margin: 10% 0% 10% 0%;
+}
+@media (min-width: 768px) {
+    .wrapper-design .design-header {
+        margin: 5% 0% 5% 0%;
+    }
+}
+.wrapper-design .design-header .tittle {
+    text-align: center;
+    font-family: fantasy;
+}
+.wrapper-design .design-header .tittle span {
+    text-align: center;
+    font-family: fantasy;
+    color: green;
+}
+.wrapper-design .design-body {
+    display: flexbox;
+    text-align: justify;
+}
+
+.img-design1 {
+    width: 100%;
+    margin: 0% 0% 5% 0%;
+    box-shadow: 5px 5px 5px #acacac;
+    border-radius: 3%;
+} 
+@media (min-width: 768px) {
+    .img-design1 {
+        margin: 10% 0% 5% 0%;
+    }
+}
+.img-design1:hover {
+    transform: scale(1.1);
+    transition: 2s;
+}
