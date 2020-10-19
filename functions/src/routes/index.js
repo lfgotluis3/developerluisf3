@@ -13,4 +13,8 @@ router.get('/web', (req, res) => {
     res.render('web');
 });
 
+router.get('/portfolio', (req, res) => {
+    res.render('portfolio');
+});
+
 module.exports = router;
