@@ -1,0 +1,168 @@
+.wrapper-section-port {
+    width: 100%;
+    height: 100vh;
+    margin: 0px 0px 5px 0px;
+    padding: 0px;
+    background-image: linear-gradient(rgba(25,25,25,.7), rgba(0,0,0,.5) ), url("../img/portf-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: rgb(150,150,150) 5px 5px 5px;
+}
+.wrapper-section-port header {
+    padding: 10px 0 10px 0;
+}
+.wrapper-section-port header .wrapper-userimgapp{
+    width: 75px;
+    height: 75px;
+    margin: 0 15px 0 auto;
+}
+.wrapper-section-port header .wrapper-userimgapp img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.wrapper-section-port .port-tittle {
+    border: o;
+    margin: 100px auto 0 auto;
+    padding: 6%;
+    text-align: center;
+    background-color: rgba(0,0,0,.0);
+}
+.wrapper-section-port .port-tittle .tittle {
+    color: white;
+    font-family: fantasy;
+    text-shadow: 5px 5px 5px black;
+    font-size: 30px;
+}
+.wrapper-section-port .port-tittle .tittle span {
+    color: green;
+    font-family: fantasy;
+    text-shadow: 5px 5px 5px black;
+    font-size: 30px;
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .wrapper-section-port .port-tittle .tittle  {
+        font-size: 35px;
+    }
+    .wrapper-section-port .port-tittle .tittle span {
+        font-size: 35px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .wrapper-section-port .port-tittle .tittle {
+        font-size: 45px;
+    }
+    .wrapper-section-port .port-tittle .tittle span {
+        font-size: 45px;
+    }
+}
+@media (min-width: 992px) { 
+    .wrapper-section-port .port-tittle .tittle {
+        font-size: 70px;
+    }
+    .wrapper-section-port .port-tittle .tittle span {
+        font-size: 70px;
+    } 
+}
+
+.wrapper-portfolio {
+    width: 100%;
+    height: 100%;
+    margin: 20px 0px 20px 0px;
+    border: 1px solid green;
+    box-shadow: rgb(150,150,150) 5px 5px 5px;
+    border-radius: 2%;
+}
+.wrapper-portfolio:hover {
+    box-shadow: 5px 5px 5px green;
+}
+.wrapper-portfolio .img {
+    width: 100%;
+    box-shadow: rgb(150,150,150) 5px 5px 5px;
+    border-radius: 2% 2% 0% 0%;
+}
+.wrapper-portfolio .portfolio-body {
+    margin: 5% 0% 0% 0%;
+    padding: 5%;
+    text-align: justify;
+}
+.wrapper-portfolio .portfolio-body .tittle {
+    margin: 3% 0% 10% 0%;
+    text-align: center;
+    font-family: emoji;
+    color: green;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #333;
+}
+.wrapper-portfolio .portfolio-body a {
+    text-decoration: none;
+}
+.wrapper-portfolio .portfolio-body .text {
+    margin: 3% 0% 10% 0%;
+}
+.wrapper-portfolio .portfolio-body .port-link {
+    text-align: center;
+    font-style: italic;
+    color: green;
+    font-weight: bold;
+}
+.wrapper-portfolio .portfolio-body .port-link:hover {
+    transform: scale(1.2);
+    transition: 2s;
+}
+.wrapper-portfolio .portfolio-body a {
+    text-decoration: none;
+}
+.wrapper-portfolio .wrapper-svg {
+    margin: 0% 0% 5% 0%;
+    display: flex;
+}
+.wrapper-portfolio .wrapper-svg .bi-chevron-up {
+    width: 2em;
+    height: 2em;
+    margin: 0% auto 0% auto;
+}
+.wrapper-portfolio .wrapper-svg .bi-chevron-up path {
+    color: green;
+}
+.wrapper-portfolio .wrapper-svg .bi-chevron-down {
+    width: 2em;
+    height: 2em;
+    margin: 0% auto 0% auto;
+}
+.wrapper-portfolio .wrapper-svg .bi-chevron-down path {
+    color: green;
+}
+.wrapper-portfolio .list-group {
+    margin: 10% 0% 0% 0%;
+}
+.wrapper-portfolio .list-group .h5 {
+    text-align: center;
+    font-family: fantasy;
+}
+.wrapper-portfolio .list-group .h5 span {
+    font-family: fantasy;
+    color: green;
+}
+.wrapper-portfolio .list-group .list-group-item {
+    text-align: center;
+}
+.wrapper-portfolio .portfolio-footer {
+    width: 100%;
+    height: 25px;
+    padding: 5% 5% 0% 0%;
+    border-top: 1px solid #333;
+    text-align: right;
+    border-top: 1px solid #333;
+    text-align: right;
+}
+.wrapper-portfolio .portfolio-footer a {
+    text-decoration: none;
+}
+.wrapper-portfolio .portfolio-footer .link {
+    font-style: italic;
+    color: green;
+    font-weight: bold;
+}
