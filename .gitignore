@@ -71,6 +71,7 @@ functions/.eslintrc.json
 functions/.gitignore
 functions/src/statics/img/
 functions/src/statics/vid/
+functions/src/statics/icons/
 
 functions/src/statics/css/bootstrap-grid.css
 functions/src/statics/css/bootstrap-grid.css.map
